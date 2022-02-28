@@ -7,17 +7,16 @@
 > This is a team project in the Microverse second Module. The project is a book application that enables a user to add and remove books to a list
 
 The endgoal of the project is to build the application using Vanilla JavaScript. The project was built through the following stage.  
-Click [here](https://daudi13.github.io/Awesome-books/) to get a live preview of the project
 
-## stages
+## Deployed page
+Click [here](https://i-max-xi.github.io/Awesome-books/) to get a live preview of the project
 
-- Project 1: Manage books collection (Plain JS with Objects)
-- Project 2: Manage books collection (Plain JS with classes) and basic CSS
-- Project 3: Create a complete website with navigation
-#### Cloning the project
-```
-git clone  https://github.com/daudi13/Awesome-books <Your-Build-Directory>
-```
+## Stages
+
+- Stage 1: Manage books collection (Plain JS with Objects)
+- Stage 2: Manage books collection (Plain JS with classes) and basic CSS
+- Stage 3: Create a complete website with navigation
+
 
 ## Getting packages and debuging with Stylelint
 ```
@@ -59,7 +58,6 @@ Give a ⭐️ if you like this project!
 
 ## Authors
 
-- David Ouma [github](https://github.com/daudi13)
 - Maxwell [github](https://github.com/i-max-xi)
 ## 📝 License
 

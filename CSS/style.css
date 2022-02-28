@@ -1,0 +1,162 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+	
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+	height: 100vh;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+	align-items: center;
+  width: 90vw;
+  border: 2px solid black;
+  padding: 1px 8px;
+  margin-top: 20px;
+}
+
+.nav .listBtn {
+	cursor: pointer;
+	transition: all 0.5s ease;
+}
+
+.nav .listBtn:hover {
+	transform: scale(0.98);
+	color: aqua;
+}
+
+header ul {
+  display: flex;
+  list-style-type: none;
+}
+
+header li {
+  margin: 5px;
+}
+
+.bookBlock {
+	align-items: center;
+}
+
+
+
+header li + li {
+  border-left: 2px solid black;
+  padding-left: 10px;
+}
+
+.date {
+  text-align: right;
+	margin: 8px 0;
+}
+
+section {
+  width: 90vw;
+  text-align: center;
+}
+
+.welcome {
+  display: none;
+}
+
+.addNew {
+  display: none;
+}
+
+.contact {
+  display: none;
+}
+
+.active {
+  display: block !important;
+}
+
+.main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+	justify-content: center;
+  margin-top: 20px;
+  padding: 10px;
+  height: 700px;
+}
+
+.main h2 {
+  margin: 6px;
+}
+
+.list-section {
+  border: 2px solid black;
+  width: 100%;
+	max-height: 500px;
+	border-radius: 10px;
+	max-width: 600px;
+	margin: auto;
+	overflow: auto;
+}
+
+.contact {
+	max-width: 500px;
+}
+
+.contact ul {
+	max-width: 80%;
+	margin-left: 100px !important;
+}
+
+.contact ul > li + li {
+	margin-top: 10px;
+}
+
+.bookBlock {
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bookBlock:nth-child(odd) {
+  background-color: rgb(209, 208, 208);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+	max-width: 400px;
+	margin: auto;
+}
+
+form > * + * {
+  margin-bottom: 20px;
+}
+
+input {
+  border: 2px solid black;
+  width: 100%;
+  padding: 6px 10px;
+}
+
+button {
+  align-self: flex-end;
+  box-shadow: 1px 2px 2px 1px black;
+	padding: 5px 10px;
+	border: 2px solid black;
+}
+
+/* .remove-btn {
+  align-self: center;
+  height: 20px;
+} */
+
+.contact ul {
+  text-align: left;
+  margin: 20px 40px;
+  width: 90%;
+}

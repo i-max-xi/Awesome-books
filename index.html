@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h3>Awesome Books</h3>
+        <ul class="nav">
+          <li class="listBtn">List</li>
+          
+          <li class="listBtn">Add New</li>
+          
+          <li class="listBtn">Contact</li>
+        </ul>
+      </nav>
+	<div class="date"></div>
+    </header>
+
+    <main class="main">
+      <section class="sec welcome active">
+        <h2 class="headTitles">Awesome books</h2>
+
+        <ul class="list-section"></ul>
+      </section>
+
+      <section class="sec addNew">
+        <form>
+          <h2 class="headTitles">Add a new Book</h2>
+          <label for="title">
+            <input type="text" id="title" placeholder="Title" required />
+          </label>
+          <label for="author">
+            <input type="text" id="author" placeholder="Author" required />
+          </label>
+
+          <button type="submit" class="btn-submit">add book</button>
+        </form>
+      </section>
+	  
+      <section class="sec contact">
+        <h2 class="headTitles">Contact Information</h2>
+        <p>
+          Do you have any questions or you just want to say "Hello" ?<br />
+          You can reach out to us!
+        </p>
+		<ul>
+			<li>Our email: maxdavid@gmail.com</li>
+			<li>Our Phone number: (+44) 2345689890</li>
+			<li>Our Address: 24th Street, Addis Ababa, Ethipia</li>
+		</ul>
+      </section>
+    </main>
+    <footer>
+      <nav><h3>Copyright</h3></nav>
+    </footer>
+
+    <script src="./JS/main.js"></script>
+  </body>
+</html>

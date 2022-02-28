@@ -4,7 +4,7 @@ let books;
 // create the book class
 
 class UpdateDisplay {
-  constructor(author, title) {
+  constructor(title, author) {
     this.title = title;
     this.author = author;
   }
@@ -63,7 +63,7 @@ static addBookItem(bookItem, pos) {
   removeBtn.classList.add('remove-btn');
 
   bookBlock.innerHTML = `
-      <p class='book-title'>'${bookItem.author}  by ${bookItem.title}</p>`;
+      <p class='book-title'>'${bookItem.title}'  by ${bookItem.author}</p>`;
 
   removeBtn.innerText = 'remove';
 

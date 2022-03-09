@@ -4,12 +4,17 @@
 
 ![screenshot](./awesomebook.png)
 
-> This is a team project in the Microverse second Module. The project is a book application that enables a user to add and remove books to a list
+> This is a project in the Microverse second Module. The project is a book application that enables a user to add and remove books to a list
 
-The endgoal of the project is to build the application using Vanilla JavaScript. The project was built through the following stage.  
+The endgoal of the project is to build the application using Vanilla JavaScript.
 
 ## Deployed page
 Click [here](https://i-max-xi.github.io/Awesome-books/) to get a live preview of the project
+
+## Built With:
+ - HTML
+ - CSS
+ - JavaScript.
 
 ## Stages
 
